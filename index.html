@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link data-require="bootstrap@4.0.0-alpha.6" data-semver="4.0.0-alpha.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script data-require="tether@1.4.0" data-semver="1.4.0" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script data-require="bootstrap@4.0.0-alpha.6" data-semver="4.0.0-alpha.6" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!--<script src="index.js"></script>-->
+</head>
+<body>
+<div class="container">
+    <form id="myForm" class="my-5">
+        <div class="form-group row">
+            <label for="fioInput" class="col-sm-2 col-form-label">FIO</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control error" id="fioInput" name="fio" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="emailInput" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="emailInput" name="email" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="phoneInput" class="col-sm-2 col-form-label">Phone</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="phoneInput" name="phone" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="offset-sm-2 col-sm-10">
+                <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+            </div>
+        </div>
+    </form>
+    <div id="resultContainer"></div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
