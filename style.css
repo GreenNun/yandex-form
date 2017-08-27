@@ -1,21 +1,21 @@
 .error {
     border: 1px solid red;
-    background-color: #ffc3be;
+    /* background-color: #ffc3be; */
 }
 
 .progress {
     border: 1px solid lightgray;
-    background-color: lightgray;
+    /*background-color: lightgray;*/
 }
 
 .success {
     border: 1px solid green;
-    background-color: green;
+    /*background-color: green;*/
 }
 
 #resultContainer {
     padding: 5px;
     border-radius: 7px;
     text-align: center;
-    color: white;
+    /*color: white;*/
 }
